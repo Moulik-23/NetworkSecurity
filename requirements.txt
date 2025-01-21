@@ -9,4 +9,5 @@ certifi
 pymongo[srv]==3.6
 dill
 pyaml
+pickle
 #-e .
