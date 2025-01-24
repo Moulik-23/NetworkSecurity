@@ -11,4 +11,7 @@ dill
 pyaml
 pickle
 mlflow
+dagshub
+fastapi
+uvicorn
 #-e .

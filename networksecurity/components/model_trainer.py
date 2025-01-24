@@ -25,6 +25,9 @@ warnings.filterwarnings('ignore')
 
 import mlflow
 
+import dagshub
+dagshub.init(repo_owner='Moulik-23', repo_name='NetworkSecurity', mlflow=True)
+
 
 class ModelTrainer:
     def __init__(self,model_trainer_config:ModelTrainerConfig,data_transformation_artifact:DataTransformationArtifact):
@@ -61,9 +64,9 @@ class ModelTrainer:
                 # 'max_features':['sqrt','log2'],
             },
             "Random Forest":{
-                'criterion':['gini', 'entropy', 'log_loss'],
+                #'criterion':['gini', 'entropy', 'log_loss'],
                 
-                'max_features':['sqrt','log2',None],
+                #'max_features':['sqrt','log2',None],
                 'n_estimators': [8,16,32,128,256]
             },
             "Gradient Boosting":{
@@ -114,6 +117,8 @@ class ModelTrainer:
         Network_model=NetworkModel(preprocessor=preprocessor,model=best_model)
         save_object(self.model_trainer_config.model_trained_file_path,obj=Network_model)
 
+        ## Model Pusher
+        save_object("final_models/model.pkl",best_model)
 
         ## Model Trainer Artifact
 
