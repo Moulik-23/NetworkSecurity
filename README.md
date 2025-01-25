@@ -30,64 +30,15 @@ This project aims to predict whether a website is fake or legitimate based on va
   - dill, pickle(for Serialization)
   
 
----
-
-## 📂 Folder Structure
-├── Network_Data/                        
-│   └── PhishingData.csv              
-├── final_models/                     
-├── networksecurity/                  
-│   ├── components/                   
-│   │   ├── data_ingestion.py        
-│   │   ├── data_transformation.py    
-│   │   ├── data_validation.py       
-│   │   └── model_trainer.py        
-│   │
-│   ├── constant/                     
-│   │   └── training_pipeline/       
-│   │       └── __init__.py          
-│   │
-│   ├── entity/                      
-│   │   ├── artifact_entity.py       
-│   │   └── config_entity.py        
-│   │
-│   ├── exception/                   
-│   │   └── exception.py            
-│   │
-│   ├── logging/                     
-│   │   └── logger.py               
-│   │
-│   ├── pipeline/                    
-│   │   └── training_pipeline.py    
-│   │
-│   └── utils/                       
-│       ├── main_utils/              
-│       │   └── utils.py            
-│       └── ml_utils/               
-│           ├── metric/             
-│           │   └── classification_metric.py
-│           └── model/              
-│               └── estimator.py    
-├── requirements.txt                
-├── README.md                       
-└── LICENSE
-
-
-      
-
-
-
-
-
 ## 🛠️ Installation and Setup
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/fake-website-detection.git
+   git clone https://github.com/Moulik-23/NetworkSecurity.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd fake-website-detection
+   cd NetworkSecurity
    ```
 3. Install the required dependencies:
    ```bash
@@ -98,42 +49,24 @@ This project aims to predict whether a website is fake or legitimate based on va
 
 ## 📊 Dataset
 
-The dataset includes features extracted from URLs and labels indicating whether a website is fake or legitimate. You can use publicly available datasets such as [Phishing Websites Dataset](https://www.kaggle.com/) or your custom dataset. *(Provide a link if you're using a public dataset.)*
+The dataset includes features extracted from URLs and labels indicating whether a website is fake or legitimate. 
 
 ---
 
 ## 🚀 How to Run
 
-1. Preprocess the dataset:
-   - Load and clean the dataset.
-   - Perform feature extraction.
-   - Split the data into training and testing sets.
-
-2. Train the model:
-   ```bash
-   python src/model_training.py
-   ```
-
-3. Test the model:
-   ```bash
-   python src/model_testing.py
-   ```
-
-4. Predict with new data:
-   ```bash
-   python src/predict.py --url <website_url>
-   ```
+1. Just Run the app.py Python script
+   This Script will automatically invoke all steps
 
 ---
 
 ## 📈 Results
 
-- **Accuracy**: XX%
-- **Precision**: XX%
-- **Recall**: XX%
-- **F1 Score**: XX%
+- **Precision**: 98.85%
+- **Recall**: 99.37%
+- **F1 Score**: 99.11%
 
-*(Update this section with your actual results.)*
+
 
 ---
 
@@ -160,9 +93,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📨 Contact
 
 For any questions or feedback, feel free to reach out:  
-**Email**: yourname@example.com  
-**GitHub**: [yourusername](https://github.com/yourusername)  
+**Email**: moulikzinzala912@example.com  
+**GitHub**: [Moulik-23](https://github.com/Moulik-23)  
 
 ---
 
-Does this cover everything? Let me know if you'd like to tweak any part further! 😊
