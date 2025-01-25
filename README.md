@@ -30,6 +30,58 @@ This project aims to predict whether a website is fake or legitimate based on va
   - dill, pickle(for Serialization)
   
 
+<<<<<<< HEAD
+=======
+---
+
+## 📂 Folder Structure
+├── Network_Data/                        
+│   └── PhishingData.csv              
+├── final_models/                     
+├── networksecurity/                  
+│    ├── components/                   
+│    │   ├── data_ingestion.py        
+│    │   ├── data_transformation.py    
+│    │   ├── data_validation.py       
+│    │   └── model_trainer.py        
+│    │
+│    ├── constant/                     
+│    │   └── training_pipeline/       
+│    │       └── __init__.py          
+│    │
+│    ├── entity/                      
+│    │   ├── artifact_entity.py       
+│    │   └── config_entity.py        
+│    │
+│    ├── exception/                   
+│    │   └── exception.py            
+│    │
+│    ├── logging/                     
+│    │   └── logger.py               
+│    │
+│    ├── pipeline/                    
+│    │   └── training_pipeline.py    
+│    │
+│    └── utils/                       
+│        ├── main_utils/              
+│        │   └── utils.py            
+│        └── ml_utils/               
+│            ├── metric/             
+│            │   └── classification_metric.py
+│            └── model/              
+│                └── estimator.py    
+├── requirements.txt                
+├── README.md                       
+└── LICENSE
+
+
+      
+
+
+
+
+
+>>>>>>> e0c529d6b0419eef33b69bf4b4acd5d353e47d54
 ## 🛠️ Installation and Setup
 
 1. Clone this repository:
@@ -98,3 +150,7 @@ For any questions or feedback, feel free to reach out:
 
 ---
 
+<<<<<<< HEAD
+=======
+Does this cover everything? Let me know if you'd like to tweak any part further! 😊
+>>>>>>> e0c529d6b0419eef33b69bf4b4acd5d353e47d54
