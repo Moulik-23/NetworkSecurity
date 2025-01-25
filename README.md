@@ -37,37 +37,37 @@ This project aims to predict whether a website is fake or legitimate based on va
 │   └── PhishingData.csv              
 ├── final_models/                     
 ├── networksecurity/                  
-│   ├── components/                   
-│   │   ├── data_ingestion.py        
-│   │   ├── data_transformation.py    
-│   │   ├── data_validation.py       
-│   │   └── model_trainer.py        
-│   │
-│   ├── constant/                     
-│   │   └── training_pipeline/       
-│   │       └── __init__.py          
-│   │
-│   ├── entity/                      
-│   │   ├── artifact_entity.py       
-│   │   └── config_entity.py        
-│   │
-│   ├── exception/                   
-│   │   └── exception.py            
-│   │
-│   ├── logging/                     
-│   │   └── logger.py               
-│   │
-│   ├── pipeline/                    
-│   │   └── training_pipeline.py    
-│   │
-│   └── utils/                       
-│       ├── main_utils/              
-│       │   └── utils.py            
-│       └── ml_utils/               
-│           ├── metric/             
-│           │   └── classification_metric.py
-│           └── model/              
-│               └── estimator.py    
+│    ├── components/                   
+│    │   ├── data_ingestion.py        
+│    │   ├── data_transformation.py    
+│    │   ├── data_validation.py       
+│    │   └── model_trainer.py        
+│    │
+│    ├── constant/                     
+│    │   └── training_pipeline/       
+│    │       └── __init__.py          
+│    │
+│    ├── entity/                      
+│    │   ├── artifact_entity.py       
+│    │   └── config_entity.py        
+│    │
+│    ├── exception/                   
+│    │   └── exception.py            
+│    │
+│    ├── logging/                     
+│    │   └── logger.py               
+│    │
+│    ├── pipeline/                    
+│    │   └── training_pipeline.py    
+│    │
+│    └── utils/                       
+│        ├── main_utils/              
+│        │   └── utils.py            
+│        └── ml_utils/               
+│            ├── metric/             
+│            │   └── classification_metric.py
+│            └── model/              
+│                └── estimator.py    
 ├── requirements.txt                
 ├── README.md                       
 └── LICENSE
